@@ -1,0 +1,70 @@
+.imc-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: var(--corSecundaria);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.imc-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--corSecundaria);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.calculate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--corPrincipal);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+    background-color: #e1b12c;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result h2 {
+    color: var(--corSecundaria);
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    color: #7f8fa6;
+}
